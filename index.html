@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome, Jordan!</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #74ABE2, #5563DE);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 0;
+    }
+
+    .roadmap {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      margin: 40px auto;
+      max-width: 700px;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .roadmap h2 {
+      text-align: center;
+      color: #FFD369;
+    }
+
+    .roadmap ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .roadmap li {
+      background: rgba(255, 255, 255, 0.15);
+      margin: 10px 0;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: transform 0.2s ease;
+    }
+
+    .roadmap li:hover {
+      transform: scale(1.03);
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    button {
+      background-color: #FFD369;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #333;
+      margin-top: 20px;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #FFC107;
+    }
+
+    footer {
+      margin: 40px 0;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome, Jordan! 👋</h1>
+    <p>Excited to have you begin your journey in Web Development & Design!</p>
+    <button id="greetBtn">Click for a surprise</button>
+  </header>
+
+  <section class="roadmap">
+    <h2>🗺️ Your Web Development Roadmap</h2>
+    <ul>
+      <li><strong>1. HTML:</strong> Learn how to structure webpages.</li>
+      <li><strong>2. CSS:</strong> Make your pages beautiful with colors, layouts, and animations.</li>
+      <li><strong>3. JavaScript:</strong> Add interactivity and logic to your websites.</li>
+      <li><strong>4. Responsive Design:</strong> Make your sites work on phones and tablets.</li>
+      <li><strong>5. Git & GitHub:</strong> Learn version control and collaboration.</li>
+      <li><strong>6. Frontend Frameworks:</strong> Explore React or Vue for dynamic UIs.</li>
+      <li><strong>7. Backend Basics:</strong> Understand Node.js, APIs, and databases.</li>
+      <li><strong>8. Deployment:</strong> Put your projects online and share them!</li>
+    </ul>
+  </section>
+
+  <footer>
+    🌟 Keep going, Jordan — the web is your canvas!
+  </footer>
+
+  <script>
+    const greetBtn = document.getElementById('greetBtn');
+    greetBtn.addEventListener('click', () => {
+      alert("You're doing great, Jordan! 🚀 Keep learning and building amazing things!");
+    });
+  </script>
+
+</body>
+</html>
